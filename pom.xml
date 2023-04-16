@@ -15,6 +15,7 @@
 	<description>Telegram bot providing results of last sports events</description>
 	<properties>
 		<java.version>17</java.version>
+		<telegram.version>6.5.0</telegram.version>
 	</properties>
 	<dependencies>
 		<!--Spring-->
@@ -26,6 +27,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<!--Telegram-->
+		<dependency>
+			<groupId>org.telegram</groupId>
+			<artifactId>telegrambots-spring-boot-starter</artifactId>
+			<version>${telegram.version}</version>
 		</dependency>
 
 		<!--Other-->
