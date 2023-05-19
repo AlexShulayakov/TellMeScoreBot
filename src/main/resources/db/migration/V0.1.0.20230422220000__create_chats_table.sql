@@ -1,0 +1,8 @@
+CREATE TABLE chats (
+id BIGINT NOT NULL AUTO_INCREMENT,
+chat_id BIGINT NOT NULL,
+state VARCHAR (100) NOT NULL DEFAULT 'START',
+context MEDIUMTEXT,
+PRIMARY KEY (id),
+UNIQUE INDEX chat_id_index (chat_id)
+);
