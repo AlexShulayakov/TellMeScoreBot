@@ -1,6 +1,6 @@
 package com.alexsh.bots.tellmescorebot.data;
 
-public enum Discipline {
+public enum DisciplineCode {
     FOOTBALL,
     ICE_HOCKEY,
     BASKETBALL

@@ -1,5 +1,7 @@
 package com.alexsh.bots.tellmescorebot.data;
 
 public enum State {
-    START
+    INITIAL,
+    DISCIPLINE_SELECTED,
+    COMPETITION_SELECTED
 }
